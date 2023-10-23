@@ -29,3 +29,6 @@ npm run dev
 - [x] Add loading and error states to your project to provide a better user experience
 - [x] Build API routes for your application
 - [x] Bonus points for following the Next/Vercel documentation and deploying your application to the cloud
+
+## Vercel deployment
+[Production](https://next-js-training-git-master-zafar-ahmeds-projects.vercel.app/)
