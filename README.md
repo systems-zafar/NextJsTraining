@@ -26,6 +26,6 @@ npm run dev
 
 - [x] Fetching data from server on multiple pages
     - I am using Prisma ORM and using Supabase as the cloud provider.
-- [x] Add loading and error states to your project to provide a better user experience
-- [x] Build API routes for your application
-- [x] Bonus points for following the Next/Vercel documentation and deploying your application to the cloud
+- [x] Add loading and error states to your project to provide a better user experience.
+- [x] Build API routes for your application.
+- [x] Bonus points for following the Next/Vercel documentation and deploying your application to the cloud.
