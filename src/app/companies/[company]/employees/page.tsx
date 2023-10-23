@@ -10,7 +10,18 @@ interface employee {
   companyId: number;
 }
 
-export default async function employees({ params }: { params: { company: string } }) {
+interface SearchParams {
+  department?: string;
+}
+
+export default async function employees({
+  params,
+  searchParams,
+}: {
+  params: { company: string };
+  searchParams?: { department: string };
+}) {
+
   const company = params.company;
 
   const prisma = new PrismaClient();
@@ -22,7 +33,8 @@ export default async function employees({ params }: { params: { company: string 
 
   const employeesData = await prisma.employee.findMany({
     where: {
-      companyId: companyId?.id
+      companyId: companyId?.id,
+      department: searchParams?.department,
     }
   });
 
