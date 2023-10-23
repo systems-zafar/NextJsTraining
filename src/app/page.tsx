@@ -9,8 +9,8 @@ export default function Home() {
             discover information about corporations and their employees.
           </p>
           <p className="mt-2">
-            Whether you're looking for details about companies or want to explore
-            data on their employees, you've come to the right place. Feel free to
+            Whether you&apos;re looking for details about companies or want to explore
+            data on their employees, you&apos;ve come to the right place. Feel free to
             browse and discover valuable insights.
           </p>
         </div>
